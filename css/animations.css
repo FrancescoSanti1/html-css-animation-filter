@@ -125,3 +125,96 @@
         transform: rotate(270deg)
     }
 }
+
+/* Esercizio 12 */
+
+@keyframes scorrimento {
+    50% {
+        transform: translateX(150%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: scorrimento;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+@keyframes scorrimento-2 {
+    50% {
+        transform: translateX(-150%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: scorrimento-2;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+
+/* Esercizio 13 */
+
+@keyframes scorrimento-3 {
+    25% {
+        transform: translateX(130px);
+    }
+
+    50% {
+        transform: translate(130px, 70px);
+    }
+
+    75% {
+        transform: translate(-30px, 70px);
+    }
+
+    90% {
+        transform: translate(-30px, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: scorrimento-3;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes scorrimento-4 {
+    25% {
+        transform: translateX(-110px);
+    }
+
+    50% {
+        transform: translate(-110px, -70px);
+    }
+
+    75% {
+        transform: translate(50px, -70px);
+    }
+
+    90% {
+        transform: translate(50px, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: scorrimento-4;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
