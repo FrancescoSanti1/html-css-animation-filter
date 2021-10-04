@@ -45,15 +45,11 @@
 }
 
 .ex-5-square:hover {
-    width: 120px;
-    height: 120px;
-    margin: -10px;
+    transform: scale(2);
 }
 
 .ex-5-square:active {
-    width: 30px;
-    height: 30px;
-    margin: 35px;
+    transform: scale(0.5);
 }
 
 /* Esercizio 6 */
@@ -92,8 +88,7 @@
 .ex-9-img:hover {
     border-radius: 20px;
     filter: sepia(0.6) grayscale(0.3);
-    width: 600px;
-    margin: -6px 0;
+    transform: scale(1.5);
 }
 
 /* Esercizio 10 */
